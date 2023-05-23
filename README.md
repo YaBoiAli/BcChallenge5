@@ -1,14 +1,11 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+This is a simple web application that serves as a work day scheduler, allowing users to manage their time effectively by adding important events to their daily planner. The application utilizes third-party APIs to provide a dynamic and interactive user experience.
 
 ## User Story
 
-```md
+```
+
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
@@ -16,7 +13,8 @@ SO THAT I can manage my time effectively
 
 ## Acceptance Criteria
 
-```md
+```
+
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -30,70 +28,46 @@ WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
 ```
 
-The following animation demonstrates the application functionality:
+## Implementation
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+The work day scheduler application follows the given user story and acceptance criteria as described above. Here is a breakdown of its implementation:
 
-## Grading Requirements
+1. Displaying Current Day
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+Upon opening the planner, the current day is displayed at the top of the calendar. This ensures that users are aware of the current date they are scheduling events for.
 
-This Challenge is graded based on the following criteria:
+2. Timeblocks for Business Hours
 
-### Technical Acceptance Criteria: 40%
+The application presents timeblocks for standard business hours, typically from 9 AM to 5 PM. These timeblocks allow users to schedule their events within this timeframe.
 
-* Satisfies all of the above acceptance criteria plus the following:
+3. Color-Coded Timeblocks
 
-  * Uses a date utility library to work with date and time
+Each timeblock is color-coded to indicate whether it is in the past, present, or future. This visual representation helps users easily identify the current time and distinguish between past, present, and future events.
 
-### Deployment: 32%
+4. Adding Events to Timeblocks
 
-* Application deployed at live URL
+By clicking into a timeblock, users can enter an event or description for that specific time slot. This feature enables users to add important events and manage their schedule effectively.
 
-* Application loads with no errors
+5. Saving Events to Local Storage
 
-* Application GitHub URL submitted
+After entering an event, users can click the save button associated with the timeblock to save the event text in local storage. This ensures that the events persist even after refreshing or reopening the page.
 
-* GitHub repo contains application code
+6. Persisting Saved Events
 
-### Application Quality: 15%
+When the page is refreshed or reopened, the saved events are retrieved from local storage and displayed in the respective timeblocks. This feature allows users to access and modify their previously saved events.
 
-* Application user experience is intuitive and easy to navigate
+## Technologies Used
 
-* Application user interface style is clean and polished
+The work day scheduler application utilizes the following technologies:
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
+- HTML: Markup language for creating the structure of the web page.
+- CSS: Stylesheet language for designing the visual presentation of the web page.
+- JavaScript: Programming language for implementing the interactive functionality of the application.
+- Third-Party APIs: External application programming interfaces used to enhance the functionality and features of the application.
 
-### Repository Quality: 13%
+## Conclusion
 
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+The work day scheduler application provides employees with a convenient way to manage their busy schedules. By following the user story and acceptance criteria, it enables users to add, save, and view events for different time slots, ensuring effective time management.
