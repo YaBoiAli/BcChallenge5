@@ -60,7 +60,7 @@ After entering an event, users can click the save button associated with the tim
 When the page is refreshed or reopened, the saved events are retrieved from local storage and displayed in the respective timeblocks. This feature allows users to access and modify their previously saved events.
 
 
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](https://github.com/YaBoiAli/BcChallenge5/blob/main/assets/img/05-third-party-apis-homework-demo.gif)
 
 ## Technologies Used
 
