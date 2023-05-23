@@ -59,6 +59,9 @@ After entering an event, users can click the save button associated with the tim
 
 When the page is refreshed or reopened, the saved events are retrieved from local storage and displayed in the respective timeblocks. This feature allows users to access and modify their previously saved events.
 
+
+![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+
 ## Technologies Used
 
 The work day scheduler application utilizes the following technologies:
