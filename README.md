@@ -62,6 +62,8 @@ When the page is refreshed or reopened, the saved events are retrieved from loca
 
 ![](https://github.com/YaBoiAli/BcChallenge5/blob/main/assets/img/05-third-party-apis-homework-demo.gif)
 
+Link To Site: [https://yaboiali.github.io/Work-Day-Scheduler/]
+
 ## Technologies Used
 
 The work day scheduler application utilizes the following technologies:
